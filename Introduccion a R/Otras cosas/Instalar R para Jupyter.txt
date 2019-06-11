@@ -1,0 +1,17 @@
+Primero:
+
+> install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
+
+
+Cuando ya se haya instalado:
+
+> install.packages('IRkernel')
+
+
+Cuando también se haya instalado:
+
+> IRkernel::installspec()
+
+
+Y ya, al abrir de nuevo Jupyter Notebook, lo tendremos instalado y elegible.
+
